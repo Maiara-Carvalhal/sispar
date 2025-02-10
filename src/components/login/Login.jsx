@@ -25,9 +25,9 @@ return(
                 <a href="Esqueci minha senha"></a>
 
                 <div>
-                    <button className={stylesEntrar}>Entrar</button>
-                    <button className={stylesCriar}>Criar conta</button>
-                </div>
+            <button className={styles.buttonEntrar}>Entrar</button>
+            <button className={styles.buttonCriar}>Criar conta</button>
+          </div>
 
             </form>   
         </section>
