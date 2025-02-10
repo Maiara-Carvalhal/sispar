@@ -1,0 +1,69 @@
+main{
+    
+    display: flex;
+
+}
+
+.containerLogin{
+    border: solid red;
+    background-image: url("../../assets/Tela\ Login/imagem tela de login.png");
+    height: 120vh;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.containerForm{
+    border: solid blue;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        border: solid fuchsia;
+        width: 40vw;
+        font-size: 2rem;
+    }
+}
+
+form{
+    border: solid violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 20vh;
+    align-items: center;
+    
+    input{
+        width: 20vw;
+        height: 5vh;
+        border-radius: 6px;
+    }
+
+    div{
+        border: solid black;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly ;
+
+        .buttonCriar{
+            background-color: green;
+            width: 6vw;
+            height: 5vh;
+            border-radius: 6px;
+        }
+
+        .buttonCriar{
+            background-color: yellow;
+            width: 6vw;
+            height: 5vh;
+            border-radius: 6px;
+        }
+
+
+    }
+}

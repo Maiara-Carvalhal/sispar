@@ -1,14 +1,16 @@
-import Capa from "../../assets/Tela Login/imagem tela de login.png"
+
 import Logo from "../../assets/Tela Login/logo-ws.png"
-function Login(){
-    return(
+import styles from "./Login.module.scss"
+ 
+function Login (){
+return(
         <>
         <main>
-        <section>
-            <p>Reservado para a img</p>
+        
+        <section className={styles.containerLogin}>
         </section>
 
-        <section>
+        <section className={styles.containerForm}>
             <img src={Logo} alt="Logo da Wilson Sons" />
             
             <h1>Boas vindas ao Novo Portal SISPAR</h1>
@@ -23,8 +25,8 @@ function Login(){
                 <a href="Esqueci minha senha"></a>
 
                 <div>
-                    <button>Entrat</button>
-                    <button>Criar conta</button>
+                    <button className={stylesEntrar}>Entrar</button>
+                    <button className={stylesCriar}>Criar conta</button>
                 </div>
 
             </form>   
