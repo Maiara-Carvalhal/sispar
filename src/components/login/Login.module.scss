@@ -26,6 +26,14 @@ main{
         border: solid fuchsia;
         width: 40vw;
         font-size: 2rem;
+        color: #001a3d;
+    }
+
+    p{
+        border: solid gold;
+        width: 60%;
+        color: #0b44C4
+
     }
 }
 
@@ -34,14 +42,25 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 20%;
-    height: 20vh;
+    width: 20vw;
+    height: vh;
     align-items: center;
     
     input{
         width: 20vw;
         height: 5vh;
         border-radius: 6px;
+    }
+
+    a{
+        width: 20vw;
+        height: 5vh;
+        border: solid crimson;
+        display: flex;
+        text-decoration: none;
+        color: #63758D;
+
+
     }
 
     div{
@@ -51,7 +70,7 @@ form{
         justify-content: space-evenly ;
         .buttonEntrar{
             background-color: pink;
-            width: 6vw;
+            width: 3vw;
             height: 5vh ;
             border-radius: 6px;
         }
