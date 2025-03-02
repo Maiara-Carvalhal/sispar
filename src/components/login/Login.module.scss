@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 main{
     
     display: flex;
@@ -5,17 +7,18 @@ main{
 }
 
 .containerLogin{
-    border: solid red;
+    // border: solid red;
     background-image: url("../../assets/Tela\ Login/imagem tela de login.png");
     height: 100vh;
     width: 60%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
+   
 }
 
 .containerForm{
-    border: solid blue;
+    // border: solid blue;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -23,63 +26,82 @@ main{
     justify-content: center;
 
     h1{
-        border: solid fuchsia;
-        width: 40vw;
+        // border: solid fuchsia;
+        width: 22vw;
         font-size: 2rem;
-        color: #001a3d;
+        font-family: "inter" ;
+        color:#23282F;
+        text-align: center;     
+        
     }
 
     p{
-        border: solid gold;
-        width: 60%;
+        // border: solid gold;
+        width: 70%;
+        font-family: "inter";
+        font-weight: bold;
         color: #0b44C4
 
     }
 }
 
-form{
-    border: solid violet;
+.formLogin{
+    // border: solid violet;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 20vw;
-    height: vh;
+    width: 25vw;
+    height: 22vh;
     align-items: center;
+    margin-top: 30px;   
+    
+      
     
     input{
         width: 20vw;
         height: 5vh;
         border-radius: 6px;
+        
     }
 
     a{
         width: 20vw;
         height: 5vh;
-        border: solid crimson;
+        // border: solid crimson;
+        font-family: "inter";
         display: flex;
         text-decoration: none;
-        color: #63758D;
+        color: #23282F;
+        font-size: 13px;
+        text-align: center;
+        justify-content: center;
+        
 
-
+        
     }
 
     div{
-        border: solid black;
-        width: 50%;
+        // border: solid black;
+        width: 70%;
         display: flex;
         justify-content: space-evenly ;
+       
         .buttonEntrar{
-            background-color: pink;
-            width: 3vw;
-            height: 5vh ;
-            border-radius: 6px;
-        }
-
-        .buttonCriar{
-            background-color: violet;
+            background-color: #001A3D;
             width: 6vw;
             height: 5vh ;
             border-radius: 6px;
+            color: #FFFFFF;
+            font-family: "inter";
+        }
+
+        .buttonCriar{
+            background-color: #00BEDD;
+            width: 6vw;
+            height: 5vh;
+            border-radius: 6px;
+            color: #FFFFFF;
+            font-family: "inter";
         }
 
     }
