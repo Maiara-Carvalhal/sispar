@@ -1,21 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.containerPrincipalSolicitacao{
+    // border: solid blue;
+    width: 95vw;
+    
+}
+
+.headerSolicitacao{
+//    border: solid red;
+    display: flex;
+    width: 27vw;
+    font-size: 0.9rem;
+    font-family: "inter";
+    
+
+    img{
+        width: 3%;
+    }
+}
+
 .layoutSolicitacao{
     display: flex;
 
 }
 
-
-.containerPrincipalSolicitacao{
-    width: 95vw;
-
-}
-
-.headerSolicitacao{
-    border: solid red;
-    width: 20vw;
-    display: flex;
-
-}
-
 .mainSolicitacao{
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-top: 1%;
+}
+
+.formSolicitacao{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+//Estilização padrão para inputs, textarea, select e label
+
+input, select, textarea{
+    border-radius: 6px;
+    border: solid #CBD4E1 0.8px;
+    height: 4vh;
     width: 100%;
+    font-family: "inter";
+    font-size: 0.8rem;
+}
+
+label{
+    color: #23282F;
+    font-weight: 700;
+    font-family: "inter";
+    font-size: 0.8rem;
+}
+    
+
+textarea{
+    height: 10vh;
+}
+
+
+.grupo1{
+//  border: solid;
+    width: 33%;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.inputNome{
+//    border: solid purple;
+    width: 45%;
+}
+
+.inputEmpresa{
+//    border: solid blue;
+    width: 25%;
+}
+
+.inputPrestacao{
+//    border: solid orange;
+    width: 25%;
+}
+
+.inputMotivo{
+//    border: solid green;
+    width: 100%;
+}
+
+//Estilização da barra vertical
+
+.barraVertical{
+    width: 0.1vw;
+    border: solid #CBD4E1 1px;
+    height: 23vh;
+}
+
+//Estilizção do grupo 2
+
+.grupo2{
+    width: 65%;
+    height: 25vh;
+    // border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1%;
+}
+
+.inputData{
+ // border: solid green;
+    width: 25%;
+}
+
+.despesas{
+//  border: solid blue;
+    width: 30%;
+}
+
+.centroDeCusto{
+    // border: solid purple;
+    width: 40%;
+}
+
+.ordem, .divisoes, .pep, .distancia{
+//  border: solid orange;
+    width:8%;
+}
+
+.moeda, .valorKm, .valorFaturado, .despesa{
+// border: solid rgb(16, 137, 80);
+width: 11%;
+}
+
+.botoes{
+    width: 15%;
+    // border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botaoSalvar{
+background-color: #001A3D;
+color: #ffffff;
+width: 5vw;
+margin-top: 11%;
+}
+
+.botaoDeletar{
+background-color: #00BEDD;
+color: #ffffff;
+width: 3vw;
+margin-top: 11%;
+
+.buttonDeletar{
+    width: 50%;
+}
+}
+
+//Estilização da tabela
+
+table{
+    width: 100%;
+    border: solid #F1F4F9 2px;
+    border-collapse: collapse;
+    font-family: "inter";
+    font-size: 0.8rem;
+    margin-top: 1%;
+}
+
+
+th{
+    background-color:#F1F4F9;
+    font-weight: 400;
+    padding: 0.5%;
+    
+}
+td, th{
+    border: solid #F1F4F9 0.8px;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.imgMotivo{
+    width: 30%;
+}
+
+.imgLixeira{
+    width: 75%;
 }

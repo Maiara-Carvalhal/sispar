@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .containerReembolsos{
   display: flex;
 }
 
 
 header {
-  width: 8vw;
+  width: 13vw;
   height: 5vh;
   display: flex;
- // border: solid red;
+  // border: solid red;
   justify-content: space-evenly;
   align-items: center;
+  font-family: "Inter";
+  font-size: 0.9rem;
+
+  img{
+    width: 6%;
+  }
   
 }
 
@@ -21,6 +29,7 @@ header {
   align-items: center;
   width: 94vw;
   height: 95vh;
+  font-family: "Inter";
 
   div {
     width: 60%;
@@ -32,9 +41,11 @@ header {
   justify-content: space-between;
  // border: solid green;
   height: 20vh;
-  width: 60%;
+  width: 51%;
   margin-top: 1rem;
   color: #23282F;
+  font-family: "Inter";
+  margin-right: 10%;
   
 }
 
@@ -45,26 +56,36 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  font-family: "Inter";
+  border-width: 1px;
+  border-radius: 8px;
+
 }
 
 .containerStatus {
-  width: 60%;
-  height: 15vh;
+  width: 51%;
+  height: 10vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: row;
   border: solid #CBD4E1;
   margin-top: 1rem;
+  font-family: "Inter";
+  margin-right: 10%;
+  border-width: 1px;
+  border-radius: 8px;
   
 
   div {
-    width: 15%;
+    width: 21%;
     height: 5vh;
-   // border: solid red;
+  //  border: solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: "Inter";
+    font-size: 0.9rem;
    
   }
 }
@@ -74,8 +95,8 @@ article {
   border-radius: 6px;
   padding: 6px;
   font-size: 1rem;
-  color: #23282F;
-  
+  color: #23282F; 
+  font-family: "Inter";
 }
 
 .imgAnalises{
@@ -84,7 +105,7 @@ article {
   padding: 6px;
   font-size: 1rem;
   color: #23282F;
- 
+  font-family: "Inter";
 }
 
 .imgAprovados{
@@ -93,13 +114,32 @@ article {
   padding: 6px;
   font-size: 1rem;
   color: #23282F;
-  
+  font-family: "Inter";
 }
 
-.imgAnalises{
-  background-color: #A60B2F;
+.imgRejeitados{
+  background-color:#A60B2F ;
   border-radius: 6px;
   padding: 6px;
   font-size: 1rem;
   color: #23282F;
+  font-family: "Inter";
+}
+
+.sistemaAtualizado{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2%;
+
+  img{
+    
+  }
+  
+
+  h5{
+    color: #0844C4;
+    font-size: 0.7rem;
+    font-family: "Inter";
+    margin-left: 1%;
+  }
 }

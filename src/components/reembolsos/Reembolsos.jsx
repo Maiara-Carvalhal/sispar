@@ -1,3 +1,4 @@
+import Sistema from  "../../assets/Dashboard/Sistema-atualizado.png"
 import Home from "../../assets/Dashboard/home.png"
 import Seta from "../../assets/Dashboard/Vector.png"
 import Solicitar from "../../assets/Dashboard/Solicitar - Reembolso.png"
@@ -9,6 +10,7 @@ import NumeroRejeitados from "../../assets/Dashboard/N-Rejeitados.png"
 import NumeroSolicitados from "../../assets/Dashboard/N-Solicitados.png"
 import styles from "./Reembolsos.module.scss"
 import NavBar from "../navbar/navbar/NavBar.jsx"
+
 
 function Reembolsos() {
   return (
@@ -69,12 +71,18 @@ function Reembolsos() {
           </div>
 
           <div>
-            <img className={styles.imgAnalises} src={NumeroRejeitados} alt="" />
+            <img className={styles.imgRejeitados} src={NumeroRejeitados} alt="" />
             <h4>41</h4>
             <p>Rejeitados</p>
           </div>
 
         </section>
+
+        <div className={styles.sistemaAtualizado}>
+        <img src={Sistema} alt="Nuvem azul com um tick no meio" />
+          <h5>Sistema atualizado.</h5>
+        </div>
+    
       </main>
       </div>
     </div>
