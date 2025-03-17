@@ -1,45 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.containerPrincipalSolicitacao{
+.containerPrincipalSolicitacao {
     // border: solid blue;
     width: 95vw;
-    
+
 }
 
-.headerSolicitacao{
-//    border: solid red;
+.headerSolicitacao {
+    //    border: solid red;
     display: flex;
     width: 27vw;
     font-size: 0.9rem;
     font-family: "inter";
-    
 
-    img{
+
+    img {
         width: 3%;
     }
 }
 
-.layoutSolicitacao{
+.layoutSolicitacao {
     display: flex;
 
 }
 
-.mainSolicitacao{
-width: 100%;
-display: flex;
-flex-direction: column;
-margin-top: 1%;
+.mainSolicitacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
 }
 
-.formSolicitacao{
-width: 100%;
-display: flex;
-justify-content: space-between;
+.formSolicitacao {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 //Estilização padrão para inputs, textarea, select e label
 
-input, select, textarea{
+input,
+select,
+textarea {
     border-radius: 6px;
     border: solid #CBD4E1 0.8px;
     height: 4vh;
@@ -48,21 +50,21 @@ input, select, textarea{
     font-size: 0.8rem;
 }
 
-label{
+label {
     color: #23282F;
     font-weight: 700;
     font-family: "inter";
     font-size: 0.8rem;
 }
-    
 
-textarea{
+
+textarea {
     height: 10vh;
 }
 
 
-.grupo1{
-//  border: solid;
+.grupo1 {
+    //  border: solid;
     width: 33%;
     height: 25vh;
     display: flex;
@@ -72,29 +74,29 @@ textarea{
 }
 
 
-.inputNome{
-//    border: solid purple;
+.inputNome {
+    //    border: solid purple;
     width: 45%;
 }
 
-.inputEmpresa{
-//    border: solid blue;
+.inputEmpresa {
+    //    border: solid blue;
     width: 25%;
 }
 
-.inputPrestacao{
-//    border: solid orange;
+.inputPrestacao {
+    //    border: solid orange;
     width: 25%;
 }
 
-.inputMotivo{
-//    border: solid green;
+.inputMotivo {
+    //    border: solid green;
     width: 100%;
 }
 
 //Estilização da barra vertical
 
-.barraVertical{
+.barraVertical {
     width: 0.1vw;
     border: solid #CBD4E1 1px;
     height: 23vh;
@@ -102,7 +104,7 @@ textarea{
 
 //Estilizção do grupo 2
 
-.grupo2{
+.grupo2 {
     width: 65%;
     height: 25vh;
     // border: solid red;
@@ -113,32 +115,38 @@ textarea{
     margin-top: -1%;
 }
 
-.inputData{
- // border: solid green;
+.inputData {
+    // border: solid green;
     width: 25%;
 }
 
-.despesas{
-//  border: solid blue;
+.despesas {
+    //  border: solid blue;
     width: 30%;
 }
 
-.centroDeCusto{
+.centroDeCusto {
     // border: solid purple;
     width: 40%;
 }
 
-.ordem, .divisoes, .pep, .distancia{
-//  border: solid orange;
-    width:8%;
+.ordem,
+.divisoes,
+.pep,
+.distancia {
+    //  border: solid orange;
+    width: 8%;
 }
 
-.moeda, .valorKm, .valorFaturado, .despesa{
-// border: solid rgb(16, 137, 80);
-width: 11%;
+.moeda,
+.valorKm,
+.valorFaturado,
+.despesa {
+    // border: solid rgb(16, 137, 80);
+    width: 11%;
 }
 
-.botoes{
+.botoes {
     width: 15%;
     // border: solid red;
     display: flex;
@@ -146,27 +154,28 @@ width: 11%;
     justify-content: space-evenly;
 }
 
-.botaoSalvar{
-background-color: #001A3D;
-color: #ffffff;
-width: 5vw;
-margin-top: 11%;
+.botaoSalvar {
+    background-color: #001A3D;
+    color: #ffffff;
+    width: 5vw;
+    margin-top: 11%;
 }
 
-.botaoDeletar{
-background-color: #00BEDD;
-color: #ffffff;
-width: 3vw;
-margin-top: 11%;
+.botaoDeletar {
+    background-color: #00BEDD;
+    color: #ffffff;
+    width: 3vw;
+    margin-top: 11%;
 
-.buttonDeletar{
-    width: 50%;
-}
+    .buttonDeletar {
+        width: 50%;
+    }
 }
 
 //Estilização da tabela
 
-table{
+
+table {
     border: #F1F4F9;
     width: 100%;
     border-collapse: collapse;
@@ -175,22 +184,82 @@ table{
     margin-top: 1%;
 }
 
-th{
-    background-color:#F1F4F9;
+th {
+    background-color: #F1F4F9;
     font-weight: 400;
     padding: 0.5%;
-    
+
 }
-td, th{
+
+td,
+th {
     border: solid #F1F4F9 0.8px;
     text-align: center;
     padding: 0.5%;
 }
 
-.imgMotivo{
+.imgMotivo {
     width: 30%;
 }
 
-.imgLixeira{
+.imgLixeira {
     width: 75%;
 }
+
+.footerSolicitacao {
+    display: flex;
+    border: black;
+    width: 50%;
+    margin-top: 17%;
+    margin-left: 50%;
+
+    .inputTotalFaturado {
+        width: 16%;
+        margin-inline: 1%;
+    }
+
+    .inputTotalDespesa {
+        width: 17%;
+    }
+
+    .buttonParaAnalise{
+        background-color: #001A3D;
+        width: 28%;
+        height: 5vh;
+        align-items: center;
+        margin-left: 2%;
+        color: #FFFFFF;
+        margin-top: 1%;
+        font-family: 1rem;
+        font-family: "inter";
+        
+    
+        img{
+            width: 10%;
+            height: 37%;
+            margin-right: 4%;
+        }
+    }
+
+    .buttonCancelarSolicitacao{
+        background-color: #A60B2F;
+        width: 28%;
+        height: 5vh;
+        align-items: center;
+        margin-left: 2%;
+        color: #FFFFFF;
+        margin-top: 1%;
+        font-family: 1rem;
+        font-family: "inter";
+
+        img{
+            width: 07%;
+            height: 35%;
+            margin-right: 4%;
+            background-color:#A60B2F;
+        }
+        }
+    
+    }
+
+

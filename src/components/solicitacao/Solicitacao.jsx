@@ -5,6 +5,9 @@ import Seta from "../../assets/Dashboard/Vector.png";
 import Lixeira from "../../assets/Solicitacao/lixeira.png"
 import Motivo from "../../assets/Solicitacao/motivo.png"
 import Deletar from "../../assets/Solicitacao/deletar.png"
+import Check from "../../assets/Solicitacao/check.png"
+import X from "../../assets/Solicitacao/x.png"
+
 function Solicitacao() {
   return (
     <div className={styles.layoutSolicitacao}>
@@ -130,7 +133,7 @@ function Solicitacao() {
                 <button className={styles.botaoSalvar}> + Salvar</button>
 
                 <button className={styles.botaoDeletar}>
-                    <img className={styles.buttonDeletar} src={Deletar} alt="Botão de deletar" />
+                  <img className={styles.buttonDeletar} src={Deletar} alt="Botão de deletar" />
                 </button>
               </div>
             </div>
@@ -144,7 +147,7 @@ function Solicitacao() {
           {/* td é a tag que representa uma célula */}
 
           <table>
-            
+
             <thead>
               <tr>
                 <th></th>
@@ -226,11 +229,33 @@ function Solicitacao() {
             </tbody>
           </table>
         </main>
+
+        <footer className={styles.footerSolicitacao}>
+
+          <div className={styles.inputTotalFaturado}>
+            <label htmlFor="">Total Faturado</label>
+            <input type="number" name="" id="" />
+           
+          </div>
+
+          <div className={styles.inputTotalDespesa}>
+            <label htmlFor="">Total Despesa</label>
+            <input type="number" name="" id="" />
+          </div>
+
+          <button className={styles.buttonParaAnalise}>
+            <img className={styles.buttonParaAnalise} src={Check} alt="Botão de Enviar" />
+            Enviar Para Análise</button>
+
+          <button className={styles.buttonCancelarSolicitacao}>
+            <img className={styles.buttonParaAnalise} src={X} alt="Botão de Cancelar" />
+            Cancelar Solicitação</button>
+        </footer>
       </div>
     </div>
 
 
-    
+
   );
 }
 export default Solicitacao;
